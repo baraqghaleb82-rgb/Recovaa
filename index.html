@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recova — Privacy-Preserving AI Recommendations</title>
+  <meta name="description" content="Recova delivers AI-powered recommendations on encrypted data — no decryption required. Built for healthcare, fintech, and government digital services." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <a href="index.html" class="nav-logo">Rec<span>ova</span></a>
+  <ul class="nav-links">
+    <li><a href="#problem">The Problem</a></li>
+    <li><a href="#how">How It Works</a></li>
+    <li><a href="#usecases">Use Cases</a></li>
+    <li><a href="pages/about.html">About</a></li>
+    <li><a href="pages/contact.html" class="nav-cta">Get Early Access</a></li>
+  </ul>
+  <div class="hamburger"><span></span><span></span><span></span></div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-pattern"></div>
+  <div class="hero-content">
+    <div class="hero-badge">🔒 Innovate UK · CyberASAP Programme</div>
+    <h1>AI Recommendations.<br><em>Encrypted.</em> Always.</h1>
+    <p>Recova is a privacy-preserving analytics engine that delivers intelligent, personalised recommendations directly on encrypted data — without ever requiring decryption. Built for regulated sectors where privacy is non-negotiable.</p>
+    <div class="hero-actions">
+      <a href="pages/contact.html" class="btn-primary">Request Early Access →</a>
+      <a href="#how" class="btn-secondary">See How It Works</a>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="hero-card">
+      <div class="card-header">
+        <div class="card-dot dot-red"></div>
+        <div class="card-dot dot-yellow"></div>
+        <div class="card-dot dot-green"></div>
+        <span class="card-title">recova · live analytics</span>
+      </div>
+      <div class="card-metric">
+        <span class="metric-label">Data state</span>
+        <span class="metric-badge badge-green">Encrypted</span>
+      </div>
+      <div class="card-metric">
+        <span class="metric-label">Inference accuracy</span>
+        <span class="metric-value">94.7%</span>
+      </div>
+      <div class="card-metric">
+        <span class="metric-label">GDPR compliance</span>
+        <span class="metric-badge badge-green">Verified</span>
+      </div>
+      <div class="card-metric">
+        <span class="metric-label">Decryption events</span>
+        <span class="metric-value">0</span>
+      </div>
+      <div class="card-metric">
+        <span class="metric-label">Performance gain</span>
+        <span class="metric-badge badge-gold">10–50× faster</span>
+      </div>
+      <div class="card-footer">
+        🔐 No plaintext data ever leaves the client device
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <span class="trust-item">Innovate UK Funded</span>
+  <div class="trust-divider"></div>
+  <span class="trust-item">CyberASAP Cohort</span>
+  <div class="trust-divider"></div>
+  <span class="trust-item">Edinburgh Napier University</span>
+  <div class="trust-divider"></div>
+  <span class="trust-item">UK GDPR Aligned</span>
+  <div class="trust-divider"></div>
+  <span class="trust-item">EU AI Act Ready</span>
+</div>
+
+<!-- PROBLEM -->
+<section class="problem" id="problem">
+  <div class="problem-grid">
+    <div>
+      <div class="section-label reveal">The Problem</div>
+      <h2 class="section-title reveal">Every AI system today demands your raw data</h2>
+      <p class="section-subtitle reveal">Regulated sectors — healthcare, fintech, government — cannot afford to expose sensitive personal data to AI systems. But they're being left behind on personalisation as a result.</p>
+      <div class="problem-points">
+        <div class="problem-point reveal">
+          <div class="point-icon">⚠️</div>
+          <div class="point-text">
+            <h4>Decryption creates exposure</h4>
+            <p>Current AI architectures require plaintext data during computation, creating insider threat and breach risk at every inference call.</p>
+          </div>
+        </div>
+        <div class="problem-point reveal">
+          <div class="point-icon">📋</div>
+          <div class="point-text">
+            <h4>Compliance blocks adoption</h4>
+            <p>UK GDPR, NHS Data Security Standards, and FCA conduct rules make centralised data processing legally precarious for regulated organisations.</p>
+          </div>
+        </div>
+        <div class="problem-point reveal">
+          <div class="point-icon">📉</div>
+          <div class="point-text">
+            <h4>Existing alternatives degrade quality</h4>
+            <p>Federated learning and differential privacy introduce 15–40% accuracy loss — rendering recommendations commercially unviable.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="problem-stat-card reveal">
+      <div class="stat-item">
+        <div class="stat-number">£<span>40</span>m</div>
+        <div class="stat-desc">Estimated annual NHS spend managing consequences of data breaches</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <div class="stat-number"><span>40</span>%</div>
+        <div class="stat-desc">Accuracy loss typical in differential privacy recommendation approaches</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <div class="stat-number">£<span>2.3</span>bn</div>
+        <div class="stat-desc">Addressable market for privacy-preserving recommendations in UK & EU regulated sectors</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how" id="how">
+  <div style="text-align:center; max-width:600px; margin:0 auto;">
+    <div class="section-label reveal">How It Works</div>
+    <h2 class="section-title reveal">Three layers. Zero plaintext.</h2>
+    <p class="section-subtitle reveal" style="margin:0 auto;">Recova's architecture mathematically guarantees that sensitive data is never exposed — not to servers, not to administrators, not to anyone.</p>
+  </div>
+  <div class="steps">
+    <div class="step reveal">
+      <div class="step-number">01</div>
+      <h3>Client-Side Encryption</h3>
+      <p>Data is encrypted at the source using user-held cryptographic keys. Processing organisations never obtain decryption capability, providing IND-CPA security guarantees against insider access.</p>
+    </div>
+    <div class="step reveal">
+      <div class="step-number">02</div>
+      <h3>Secure Preprocessing Pipeline</h3>
+      <p>Encrypted data undergoes transformation into computation-ready formats while maintaining full cryptographic protection. No plaintext material exists at rest or in transit.</p>
+    </div>
+    <div class="step reveal">
+      <div class="step-number">03</div>
+      <h3>Encrypted Inference Engine</h3>
+      <p>AI recommendation models perform inference natively on encrypted representations using a hybrid framework of functional encryption and garbled circuits — delivering 10–50× performance gains over homomorphic encryption alone.</p>
+    </div>
+  </div>
+</section>
+
+<!-- USE CASES -->
+<section class="usecases" id="usecases">
+  <div class="section-label reveal">Use Cases</div>
+  <h2 class="section-title reveal">Built for sectors where privacy is the product</h2>
+  <div class="cases-grid">
+    <div class="case-card reveal">
+      <div class="case-top">
+        <div class="case-icon">🏥</div>
+        <h3>Healthcare</h3>
+      </div>
+      <div class="case-body">
+        <p>Personalised patient pathway recommendations, treatment adherence nudges, and clinical decision support — all on encrypted patient records. No NHS data ever leaves the encrypted state.</p>
+        <span class="case-tag">NHS Data Security Standards</span>
+      </div>
+    </div>
+    <div class="case-card reveal">
+      <div class="case-top">
+        <div class="case-icon">🏦</div>
+        <h3>Fintech</h3>
+      </div>
+      <div class="case-body">
+        <p>Personalised financial product recommendations and fraud pattern detection on encrypted transaction data. Satisfy open banking regulation and FCA conduct rules simultaneously.</p>
+        <span class="case-tag">FCA Conduct Rules</span>
+      </div>
+    </div>
+    <div class="case-card reveal">
+      <div class="case-top">
+        <div class="case-icon">🏛️</div>
+        <h3>Government Digital</h3>
+      </div>
+      <div class="case-body">
+        <p>Citizen-facing recommendation and feedback analysis systems where public trust and data sovereignty requirements prevent centralised data processing.</p>
+        <span class="case-tag">UK GDPR · EU AI Act</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- METRICS -->
+<section class="metrics" id="metrics">
+  <div style="text-align:center; max-width:600px; margin:0 auto;">
+    <div class="section-label reveal">Why Recova</div>
+    <h2 class="section-title reveal">Numbers that matter to investors and customers alike</h2>
+  </div>
+  <div class="metrics-grid">
+    <div class="metric-card reveal">
+      <div class="metric-big"><span>10–50</span>×</div>
+      <div class="metric-desc">Performance improvement over homomorphic encryption approaches</div>
+    </div>
+    <div class="metric-card reveal">
+      <div class="metric-big"><span>0</span></div>
+      <div class="metric-desc">Plaintext decryption events during AI inference</div>
+    </div>
+    <div class="metric-card reveal">
+      <div class="metric-big">£<span>2.3</span>bn</div>
+      <div class="metric-desc">Addressable market in UK & EU regulated sectors</div>
+    </div>
+    <div class="metric-card reveal">
+      <div class="metric-big"><span>41</span>%</div>
+      <div class="metric-desc">CAGR of the global privacy-preserving computation market to 2030</div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section class="team" id="team">
+  <div class="section-label reveal">The Team</div>
+  <h2 class="section-title reveal">World-class cryptography meets proven commercialisation</h2>
+  <div class="team-grid">
+    <div class="team-card reveal">
+      <div class="team-avatar">BG</div>
+      <h3>Dr. Baraq Ghaleb</h3>
+      <div class="role">Project Leader · Potential CEO</div>
+      <p>Associate Professor, Edinburgh Napier University. 1,000+ citations in homomorphic encryption and privacy-preserving ML. Led LastingAsset CyberASAP spin-out.</p>
+    </div>
+    <div class="team-card reveal">
+      <div class="team-avatar">AA</div>
+      <h3>Prof. Ahmed Al-Dubai</h3>
+      <div class="role">Co-Investigator · Strategic Lead</div>
+      <p>Head of Networks Research Group. Extensive EU, EPSRC and Royal Society funding. Industry connections spanning healthcare, fintech and government digital.</p>
+    </div>
+    <div class="team-card reveal">
+      <div class="team-avatar">SK</div>
+      <h3>Shahbaz Khan</h3>
+      <div class="role">Cryptographic Protocol Lead</div>
+      <p>45+ publications in IEEE/ACM Transactions. Expertise in applied cryptography, post-quantum techniques, and side-channel resistance.</p>
+    </div>
+    <div class="team-card reveal">
+      <div class="team-avatar">FA</div>
+      <h3>Faneela</h3>
+      <div class="role">MVP Technical Development</div>
+      <p>PhD researcher specialising in homomorphic encryption and privacy-preserving computation. Leads hands-on MVP development and SDK creation.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="section-label" style="color:var(--gold-light)">Early Access</div>
+  <h2 class="section-title">Ready to deploy AI without the privacy trade-off?</h2>
+  <p>Join our early access programme. We're onboarding a select group of regulated-sector organisations for structured pilot scoping discussions.</p>
+  <a href="pages/contact.html" class="btn-gold">Apply for Early Access →</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div>
+      <a href="index.html" class="footer-logo">Rec<span>ova</span></a>
+      <div class="footer-tagline">Privacy-Preserving AI Recommendations · Edinburgh, UK</div>
+    </div>
+    <div class="footer-links">
+      <a href="#problem">The Problem</a>
+      <a href="#how">How It Works</a>
+      <a href="#usecases">Use Cases</a>
+      <a href="pages/about.html">About</a>
+      <a href="pages/contact.html">Contact</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copy">© 2026 Recova · Edinburgh Napier University · Innovate UK Project 10193687</span>
+    <div class="footer-badges">
+      <span class="badge">UK GDPR</span>
+      <span class="badge">CyberASAP</span>
+      <span class="badge">Innovate UK</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
