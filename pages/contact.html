@@ -1,1 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Recova</title>
+  <meta name="description" content="Apply for early access to Recova's privacy-preserving recommendation engine. We're onboarding regulated-sector organisations for structured pilot scoping." />
+  <link rel="stylesheet" href="../css/style.css" />
+  <style>
+    .contact-hero { padding: 140px 5% 60px; background: var(--cream); }
+    .contact-hero .section-title { max-width: 600px; }
+    .contact-body { padding: 60px 5% 90px; background: var(--cream); }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 5rem; align-items: start; }
+    .contact-info h3 { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--navy); margin-bottom: 0.8rem; }
+    .contact-info p { font-size: 0.88rem; color: var(--text-muted); line-height: 1.75; margin-bottom: 1.5rem; }
+    .contact-detail { display: flex; align-items: flex-start; gap: 0.8rem; margin-bottom: 1rem; }
+    .contact-detail-icon { font-size: 1.1rem; margin-top: 2px; }
+    .contact-detail-text { font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; }
+    .contact-detail-text strong { color: var(--navy); display: block; font-size: 0.8rem; margin-bottom: 0.15rem; }
+    .form-card { background: var(--white); border-radius: 16px; padding: 2.5rem; border: 1px solid var(--border); box-shadow: 0 8px 40px rgba(26,39,68,0.06); }
+    .form-card h3 { font-family: 'Playfair Display', serif; font-size: 1.3rem; color: var(--navy); margin-bottom: 0.4rem; }
+    .form-card > p { font-size: 0.83rem; color: var(--text-muted); margin-bottom: 2rem; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .form-group { margin-bottom: 1.2rem; }
+    .form-group label { display: block; font-size: 0.78rem; font-weight: 500; color: var(--navy); margin-bottom: 0.4rem; letter-spacing: 0.02em; }
+    .form-group input, .form-group select, .form-group textarea {
+      width: 100%; padding: 0.75rem 1rem;
+      border: 1.5px solid var(--border); border-radius: 8px;
+      font-family: 'DM Sans', sans-serif; font-size: 0.88rem;
+      color: var(--text); background: var(--cream);
+      transition: border-color 0.2s, box-shadow 0.2s;
+      outline: none;
+    }
+    .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+      border-color: var(--navy); box-shadow: 0 0 0 3px rgba(26,39,68,0.08);
+    }
+    .form-group textarea { resize: vertical; min-height: 110px; }
+    .form-submit { width: 100%; padding: 0.9rem; background: var(--navy); color: var(--white); border: none; border-radius: 8px; font-family: 'DM Sans', sans-serif; font-size: 0.95rem; font-weight: 500; cursor: pointer; transition: all 0.25s; }
+    .form-submit:hover { background: var(--navy-light); transform: translateY(-1px); box-shadow: 0 8px 24px rgba(26,39,68,0.2); }
+    .form-note { font-size: 0.73rem; color: var(--text-muted); text-align: center; margin-top: 0.8rem; }
+    .success-msg { display: none; text-align: center; padding: 2rem; }
+    .success-msg .icon { font-size: 2.5rem; margin-bottom: 1rem; }
+    .success-msg h4 { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--navy); margin-bottom: 0.5rem; }
+    .success-msg p { font-size: 0.85rem; color: var(--text-muted); }
+    .nav-links { display: flex !important; }
+    @media(max-width:900px){ .contact-grid { grid-template-columns:1fr; gap:2.5rem; } .form-row { grid-template-columns:1fr; } }
+    @media(max-width:600px){ .nav-links { display:none !important; } }
+  </style>
+</head>
+<body>
 
+<nav>
+  <a href="../index.html" class="nav-logo">Rec<span>ova</span></a>
+  <ul class="nav-links">
+    <li><a href="../index.html#problem">The Problem</a></li>
+    <li><a href="../index.html#how">How It Works</a></li>
+    <li><a href="../index.html#usecases">Use Cases</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html" class="nav-cta active">Get Early Access</a></li>
+  </ul>
+  <div class="hamburger"><span></span><span></span><span></span></div>
+</nav>
+
+<section class="contact-hero">
+  <div class="section-label">Get In Touch</div>
+  <h1 class="section-title">Join our early access programme</h1>
+  <p class="section-subtitle" style="margin-top:0.8rem;">We're working with a select group of regulated-sector organisations on structured pilot scoping. Tell us about your organisation and we'll be in touch.</p>
+</section>
+
+<section class="contact-body">
+  <div class="contact-grid">
+    <div class="contact-info reveal">
+      <h3>Who we're looking for</h3>
+      <p>We're particularly interested in speaking with organisations in healthcare, fintech, and government digital services who are exploring AI-driven personalisation but face compliance or data sensitivity constraints.</p>
+      <p>If you're a researcher, investor, or potential partner, we'd love to hear from you too.</p>
+
+      <div class="contact-detail">
+        <div class="contact-detail-icon">🏛️</div>
+        <div class="contact-detail-text">
+          <strong>Institution</strong>
+          Edinburgh Napier University<br>Centre for Distributed Computing, Networks and Security
+        </div>
+      </div>
+      <div class="contact-detail">
+        <div class="contact-detail-icon">📍</div>
+        <div class="contact-detail-text">
+          <strong>Location</strong>
+          Edinburgh, Scotland, UK
+        </div>
+      </div>
+      <div class="contact-detail">
+        <div class="contact-detail-icon">🏷️</div>
+        <div class="contact-detail-text">
+          <strong>Innovate UK Project</strong>
+          CyberASAP · Project No: 10193687
+        </div>
+      </div>
+      <div class="contact-detail">
+        <div class="contact-detail-icon">📅</div>
+        <div class="contact-detail-text">
+          <strong>Response time</strong>
+          We aim to respond to all enquiries within 3 working days
+        </div>
+      </div>
+    </div>
+
+    <div class="form-card reveal">
+      <h3>Tell us about yourself</h3>
+      <p>Fill in the form below and we'll be in touch to arrange an initial conversation.</p>
+      <div id="form-wrapper">
+        <div class="form-row">
+          <div class="form-group">
+            <label>First Name *</label>
+            <input type="text" id="fname" placeholder="Jane" />
+          </div>
+          <div class="form-group">
+            <label>Last Name *</label>
+            <input type="text" id="lname" placeholder="Smith" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Work Email *</label>
+          <input type="email" id="email" placeholder="jane@organisation.com" />
+        </div>
+        <div class="form-group">
+          <label>Organisation *</label>
+          <input type="text" id="org" placeholder="Your organisation" />
+        </div>
+        <div class="form-group">
+          <label>I am a… *</label>
+          <select id="type">
+            <option value="">Select one</option>
+            <option>Potential customer (regulated sector)</option>
+            <option>Investor</option>
+            <option>Research collaborator</option>
+            <option>Partner or reseller</option>
+            <option>Press / media</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Tell us about your use case or interest</label>
+          <textarea id="message" placeholder="Briefly describe your organisation's data privacy challenges, or what you'd like to explore with Recova…"></textarea>
+        </div>
+        <button class="form-submit" onclick="handleSubmit()">Send Enquiry →</button>
+        <p class="form-note">🔒 Your information is handled in accordance with UK GDPR. We will never share your details with third parties.</p>
+      </div>
+      <div class="success-msg" id="success">
+        <div class="icon">✅</div>
+        <h4>Thank you for reaching out</h4>
+        <p>We've received your enquiry and will be in touch within 3 working days to arrange an initial conversation.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-top">
+    <div>
+      <a href="../index.html" class="footer-logo">Rec<span>ova</span></a>
+      <div class="footer-tagline">Privacy-Preserving AI Recommendations · Edinburgh, UK</div>
+    </div>
+    <div class="footer-links">
+      <a href="../index.html#problem">The Problem</a>
+      <a href="../index.html#how">How It Works</a>
+      <a href="../index.html#usecases">Use Cases</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copy">© 2026 Recova · Edinburgh Napier University · Innovate UK Project 10193687</span>
+    <div class="footer-badges">
+      <span class="badge">UK GDPR</span>
+      <span class="badge">CyberASAP</span>
+      <span class="badge">Innovate UK</span>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+<script>
+function handleSubmit() {
+  const fname = document.getElementById('fname').value.trim();
+  const email = document.getElementById('email').value.trim();
+  const org = document.getElementById('org').value.trim();
+  const type = document.getElementById('type').value;
+  if (!fname || !email || !org || !type) {
+    alert('Please fill in all required fields.');
+    return;
+  }
+  document.getElementById('form-wrapper').style.display = 'none';
+  document.getElementById('success').style.display = 'block';
+}
+</script>
+</body>
+</html>

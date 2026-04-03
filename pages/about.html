@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Recova</title>
+  <meta name="description" content="Recova is a CyberASAP-backed spin-out from Edinburgh Napier University, developing the world's first commercially deployable privacy-preserving recommendation engine." />
+  <link rel="stylesheet" href="../css/style.css" />
+  <style>
+    .about-hero { padding: 140px 5% 80px; background: var(--navy); }
+    .about-hero .section-label { color: var(--gold-light); }
+    .about-hero .section-title { color: var(--white); max-width: 700px; }
+    .about-hero p { color: rgba(255,255,255,0.6); max-width: 580px; font-size: 1.05rem; line-height: 1.75; margin-top: 1rem; }
+    .about-body { padding: 80px 5%; background: var(--white); }
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: start; }
+    .about-body h3 { font-family: 'Playfair Display', serif; font-size: 1.4rem; color: var(--navy); margin-bottom: 1rem; }
+    .about-body p { font-size: 0.9rem; color: var(--text-muted); line-height: 1.8; margin-bottom: 1rem; }
+    .journey { background: var(--cream); padding: 80px 5%; }
+    .timeline { margin-top: 3rem; position: relative; }
+    .timeline::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 2px; background: var(--border); }
+    .tl-item { padding-left: 2.5rem; margin-bottom: 2.5rem; position: relative; }
+    .tl-dot { position: absolute; left: -5px; top: 4px; width: 12px; height: 12px; border-radius: 50%; background: var(--gold); }
+    .tl-date { font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold); font-weight: 500; margin-bottom: 0.3rem; }
+    .tl-title { font-size: 0.95rem; font-weight: 600; color: var(--navy); margin-bottom: 0.3rem; }
+    .tl-desc { font-size: 0.83rem; color: var(--text-muted); line-height: 1.65; }
+    .nav-links { display: flex !important; }
+    @media(max-width:900px){ .about-grid { grid-template-columns:1fr; gap:2rem; } }
+    @media(max-width:600px){ .nav-links { display:none !important; } }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-logo">Rec<span>ova</span></a>
+  <ul class="nav-links">
+    <li><a href="../index.html#problem">The Problem</a></li>
+    <li><a href="../index.html#how">How It Works</a></li>
+    <li><a href="../index.html#usecases">Use Cases</a></li>
+    <li><a href="about.html" class="active">About</a></li>
+    <li><a href="contact.html" class="nav-cta">Get Early Access</a></li>
+  </ul>
+  <div class="hamburger"><span></span><span></span><span></span></div>
+</nav>
+
+<section class="about-hero">
+  <div class="section-label">About Recova</div>
+  <h1 class="section-title">Born from world-class research. Built for the real world.</h1>
+  <p>Recova is a CyberASAP-backed innovation project emerging from Edinburgh Napier University, developing the first commercially deployable privacy-preserving AI recommendation engine for regulated sectors.</p>
+</section>
+
+<section class="about-body">
+  <div class="about-grid">
+    <div>
+      <h3>Our Mission</h3>
+      <p>We believe organisations in healthcare, fintech, and government should never have to choose between delivering intelligent, personalised experiences and protecting the privacy of the people they serve.</p>
+      <p>Recova eliminates that trade-off entirely. Our encrypted inference engine runs AI recommendation models directly on encrypted data — meaning sensitive personal information is mathematically guaranteed never to be exposed during computation.</p>
+      <p>This isn't a workaround. It's a fundamental architectural advance: privacy-preserving AI that actually performs at commercial scale.</p>
+    </div>
+    <div>
+      <h3>Our Background</h3>
+      <p>Recova is built on deep expertise in applied cryptography, privacy-preserving computation, and AI systems engineering, developed across years of academic research at Edinburgh Napier University's Centre for Distributed Computing, Networks and Security.</p>
+      <p>The team brings a proven CyberASAP track record through the successful spin-out of LastingAsset, which attracted over £500,000 in follow-on external funding — demonstrating our ability to navigate the full journey from research to commercial entity.</p>
+      <p>Recova is supported by Innovate UK through the CyberASAP commercialisation programme (Project No: 10193687), with the goal of establishing a UK-headquartered, globally scalable privacy technology company.</p>
+    </div>
+  </div>
+</section>
+
+<section class="journey">
+  <div class="section-label reveal">Our Journey</div>
+  <h2 class="section-title reveal">From research to commercial reality</h2>
+  <div class="timeline">
+    <div class="tl-item reveal">
+      <div class="tl-dot"></div>
+      <div class="tl-date">April 2026 · Now</div>
+      <div class="tl-title">Phase 1, Stage 1 — Value Proposition Development</div>
+      <div class="tl-desc">Validating the commercial problem-solution fit through structured customer discovery interviews across healthcare, fintech, and government digital services. Attending CyberASAP Value Proposition Bootcamp.</div>
+    </div>
+    <div class="tl-item reveal">
+      <div class="tl-dot"></div>
+      <div class="tl-date">May – June 2026</div>
+      <div class="tl-title">Phase 1, Stage 2 — Market Validation</div>
+      <div class="tl-desc">Securing Letters of Intent from regulated-sector organisations. Attending Infosecurity Europe and CyberASAP Market Validation Bootcamp. Building security and compliance evidence pack.</div>
+    </div>
+    <div class="tl-item reveal">
+      <div class="tl-dot"></div>
+      <div class="tl-date">Late 2026</div>
+      <div class="tl-title">Phase 2 — MVP Development</div>
+      <div class="tl-desc">Building the functional encrypted analytics engine prototype. Delivering pilot-ready demonstrations with Letter of Intent partners. Benchmarking against plaintext and privacy-alternative approaches.</div>
+    </div>
+    <div class="tl-item reveal">
+      <div class="tl-dot"></div>
+      <div class="tl-date">2027</div>
+      <div class="tl-title">Spin-out Incorporation & Commercial Launch</div>
+      <div class="tl-desc">Recova Ltd incorporated under exclusive licence from Edinburgh Napier University. SaaS platform live. First paid pilots and subscription customers onboarded.</div>
+    </div>
+    <div class="tl-item reveal">
+      <div class="tl-dot"></div>
+      <div class="tl-date">2028 – 2029</div>
+      <div class="tl-title">Scale & Series A</div>
+      <div class="tl-desc">Target £2m–£3.5m ARR. Series A raise of £6m–£10m to accelerate European expansion and enterprise sales capability.</div>
+    </div>
+  </div>
+</section>
+
+<section class="team" id="team">
+  <div class="section-label reveal">The Team</div>
+  <h2 class="section-title reveal">World-class cryptography meets proven commercialisation</h2>
+  <div class="team-grid">
+    <div class="team-card reveal">
+      <div class="team-avatar">BG</div>
+      <h3>Dr. Baraq Ghaleb</h3>
+      <div class="role">Project Leader · Potential CEO</div>
+      <p>Associate Professor at Edinburgh Napier University's Centre for Distributed Computing. 1,000+ citations. Deep specialisation in homomorphic encryption and privacy-preserving ML. Led LastingAsset CyberASAP spin-out.</p>
+    </div>
+    <div class="team-card reveal">
+      <div class="team-avatar">AA</div>
+      <h3>Prof. Ahmed Al-Dubai</h3>
+      <div class="role">Co-Investigator · Strategic Lead</div>
+      <p>Head of Networks Research Group, Edinburgh Napier University. Extensive EU, EPSRC, and Royal Society funding success. Strong industry connections in multi-access edge computing and AI-enabled systems.</p>
+    </div>
+    <div class="team-card reveal">
+      <div class="team-avatar">SK</div>
+      <h3>Shahbaz Khan</h3>
+      <div class="role">Cryptographic Protocol Lead</div>
+      <p>Research Assistant nearing PhD completion in Quantum Computing. 45+ publications in IEEE/ACM Transactions. Expertise spans applied cryptography, post-quantum techniques, and side-channel resistance.</p>
+    </div>
+    <div class="team-card reveal">
+      <div class="team-avatar">FA</div>
+      <h3>Faneela</h3>
+      <div class="role">MVP Technical Development Lead</div>
+      <p>PhD researcher specialising in homomorphic encryption and privacy-preserving computation. Leads hands-on MVP development, cryptographic protocol integration, and RESTful API/SDK creation.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="section-label" style="color:var(--gold-light)">Work With Us</div>
+  <h2 class="section-title">Interested in piloting Recova in your organisation?</h2>
+  <p>We're working with a select group of regulated-sector organisations on structured pilot scoping. Get in touch to find out more.</p>
+  <a href="contact.html" class="btn-gold">Get In Touch →</a>
+</section>
+
+<footer>
+  <div class="footer-top">
+    <div>
+      <a href="../index.html" class="footer-logo">Rec<span>ova</span></a>
+      <div class="footer-tagline">Privacy-Preserving AI Recommendations · Edinburgh, UK</div>
+    </div>
+    <div class="footer-links">
+      <a href="../index.html#problem">The Problem</a>
+      <a href="../index.html#how">How It Works</a>
+      <a href="../index.html#usecases">Use Cases</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copy">© 2026 Recova · Edinburgh Napier University · Innovate UK Project 10193687</span>
+    <div class="footer-badges">
+      <span class="badge">UK GDPR</span>
+      <span class="badge">CyberASAP</span>
+      <span class="badge">Innovate UK</span>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
